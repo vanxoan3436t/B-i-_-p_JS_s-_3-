@@ -1,0 +1,23 @@
+.shadows-self-build .form-control,
+.shadows-self-build .form-select {
+    box-shadow: inset 3px 2px 3px 2px rgb(0 0 0 / 10%);
+}
+
+.shadows-self-build .form-select {
+    background-image: none;
+}
+
+.shadows-self-build .alert-info tr td {
+    border: solid 1px white;
+}
+
+.shadows-self-build .fa-battery-full {
+    transform: rotate(-90deg);
+    color: green;
+}
+.shadows-self-build .ul2 li{
+    margin-left: 4%;
+}
+.shadows-self-build .fa-sack-dollar{
+    color: #886d23;
+}
