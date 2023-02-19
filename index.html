@@ -123,10 +123,8 @@
             <div class="form-group">
                 <div class="form-group d-flex mt-4">
                     <input id="hoTen" class="form-control w-25 me-5" placeholder="Nhập họ tên">
-
                     <input id="soKW" class="form-control w-25" type="number" placeholder="Nhập số kw">
                 </div>
-
                 <button class="btn btn-primary rounded-pill my-3 px-5" id="btn-ketQua2">Tính tiền điện</button>
                 <div class="mt-2 alert alert-success">
                     <i class="fa fa-hand-point-right"></i> <span id="ketQuaB2"></span>
@@ -194,7 +192,6 @@
                 </div>
             </div>
 
-
         </div>
         <hr>
         <!-- bài 4 -->
@@ -221,19 +218,17 @@
             </div>
             <h2><i class="fa-solid fa-star-of-david"></i>Tính tiền cáp</h2>
             <div class="form-group d-flex justify-content-between mt-4">
-                <select class="form-control w-25" id="mySelect">
-                    <!-- onchange="myFunction()" chịu h k có thời gian để tìm cách ẩn đi -->
+                <select class="form-control w-25" id="mySelect" onchange="anHien ()">
                     <option selected value="0">Chọn loại khách hàng:</option>
                     <option value="1">Nhà dân</option>
-                    <option value="2">Doanh nghiệp</option>
+                    <option value="2">Doanh nghiệp</option>    
                 </select>
 
                 <input id="maKhachHang" class="form-control w-25 " type="text" placeholder="Nhập mã khách hàng">
                 <input id="soKenhCC" class="form-control w-25 " type="number" placeholder="Số kênh cao cấp">
-
             </div>
-            <div id="demo">
-                <input id="soKetNoi" class="form-control w-25 mt-3" type="number" placeholder="Số kết nối (CHỈ DOANH NGHIỆP)">
+            <div id="showHide" >
+                <input id="soKetNoi" class="form-control w-25 mt-3" type="number" placeholder="Số kết nối ">
             </div>
             <button class="btn btn-primary rounded-pill my-3 px-5" id="btn-ketQua4">Tính tiền cáp</button>
             <div class="mt-2 alert alert-success">

@@ -61,6 +61,16 @@ document.getElementById('btn-ketQua3').onclick = function () {
     domID('ketQuaB3').innerHTML = 'Họ tên:' + hoTenInRa + '; ' + 'Tiền thuế thu nhập cá nhân: ' + tienThue.toLocaleString() + 'VND';
 }
 //bài 4
+function anHien() {//ẩn hiện input soKết nối
+    var loaiKH = domID('mySelect').value;
+    var show = domID('showHide');
+    show.className = ' d-none';
+    if (loaiKH === '2') {
+        show.className = ' d-block';
+    }
+
+}
+
 document.getElementById('btn-ketQua4').onclick = function () {
     //input
     var loaiKH = domID('mySelect').value;

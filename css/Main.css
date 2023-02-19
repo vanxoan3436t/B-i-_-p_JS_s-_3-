@@ -21,3 +21,7 @@
 .shadows-self-build .fa-sack-dollar{
     color: #886d23;
 }
+
+#showHide {
+    display: none;
+}
